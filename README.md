@@ -1,2 +1,2 @@
 # operating-system-course
-Some assignment from my course Operating System
+Some assignments from my course Operating System
