@@ -1,6 +1,8 @@
 /*
+Example of file copy operation in C++
+
 This example was taken from a book: 
-Modern Operating Systems 4th Edition (Chapter 4 File Systems)
+Modern Operating Systems 4th Edition (Chapter 4 File Systems), 
 Andrew S. Tanenbaum & Herbert Bos, Pearson, 2015
 
 After compiling the following program it can be called, for example, by the command line:
