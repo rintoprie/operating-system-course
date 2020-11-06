@@ -4,6 +4,7 @@ https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/
 
 Output:
 Time quantum = 1
+Arrival time of P1 = P2 = P3 = 0
 Processes 	Burst Time 	Waiting Time 	Turn Around Time
 1        	3     		4         		7
 2        	4     		6         		10
@@ -99,8 +100,7 @@ void findTurnAroundTime(int processes[], int n,
 } 
 
 // Function to calculate average time 
-void findavgTime(int processes[], int n, int bt[], 
-									int quantum) 
+void findavgTime(int processes[], int n, int bt[], int quantum) 
 { 
 	int wt[n], tat[n], total_wt = 0, total_tat = 0; 
 
@@ -143,6 +143,7 @@ int main()
 	// Time quantum 
 	int quantum = 1; 
 	cout << "Time quantum = " << quantum << "\n";
+	cout << "Arrival time of P1 = P2 = P3 = 0\n";
 	findavgTime(processes, n, burst_time, quantum); 
 	return 0; 
 } 
