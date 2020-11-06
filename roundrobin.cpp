@@ -18,8 +18,8 @@ Waiting Time: Time Difference between turn around time and burst time (Waiting T
 Turn Around Time: Time Difference between completion time and arrival time (Turn Around Time = Completion Time – Arrival Time)
 
 Timeline from simulation:
-Process Execution:	P1 	P2 	P3 	P1 	P2 	P3 	P1 	P2 	P3 	P2	(Completed)
-Time unit: 			0---1---2---3---4---5---6---7---8---9---10
+Process Execution:  P1  P2  P3  P1  P2  P3  P1  P2  P3  P2  (Completed)
+Time unit:          0---1---2---3---4---5---6---7---8---9---10
 */
 #include <iostream> 
 using namespace std; 
