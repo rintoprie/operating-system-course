@@ -3,10 +3,10 @@ Example of First Come First Service (FCFS or FIFO) Scheduling in C++
 https://www.geeksforgeeks.org/program-for-fcfs-cpu-scheduling-set-1/
 
 Output:
-Processes   Burst time   	Waiting time   Turn around time
-   1		  3	    		  0		  		  3
-   2		  5	    		  3		  		  8
-   3		  8	   		  8		  		  16
+Processes  Burst time  Waiting time  Turn around time
+   1        3          0             3
+   2        5          3             8
+   3        8          8             16
 Average waiting time = 3.66667
 Average turn around time = 9
 
