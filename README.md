@@ -1,2 +1,2 @@
 # Operating System Course Hands-on 
-Some assignments from my course Operating System
+Some exercises from my course Operating System
