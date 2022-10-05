@@ -1,3 +1,12 @@
+/*
+An example program using threads in C++
+This example was taken from a book: 
+Modern Operating Systems 4th Edition (Figure 2-15), 
+Andrew S. Tanenbaum & Herbert Bos, Pearson, 2015
+
+This code was written and tested using https://www.onlinegdb.com 
+*/
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
