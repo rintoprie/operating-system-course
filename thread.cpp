@@ -22,11 +22,11 @@ int main (int argc, char *argv[])
   
 /* The main program creates 10 threads and then exits. */ 
     pthread_t threads[NUMBER_OF_THREADS];
-    int status, i;
+    int status;
 
-    for (i = 0; i < NUMBER_OF_THREADS; i++)
+    for (long i = 0; i < NUMBER_OF_THREADS; i++)
     {
-        printf ("Main here. Creating thread %d\n", i);
+        printf ("Main here. Creating thread %ld\n", i);
         status = pthread_create (&threads[i], NULL, print_hello_world, (void *) i);
         if (status != 0)
 	    {
